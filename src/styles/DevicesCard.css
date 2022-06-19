@@ -1,0 +1,16 @@
+.devices-video{
+    position: absolute;
+    margin-top: -10%;  
+    width: 60%;
+}
+
+.devices-image{
+    position: relative;
+    z-index: 2;
+    width: 100vw;
+}
+
+.devices-animate {
+    border-bottom: 8px solid #222;
+    padding-bottom: 3rem;
+}

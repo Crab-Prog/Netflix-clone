@@ -7,3 +7,14 @@
     display: block;
     background: url("../assets/images/download-icon.gif") center center no-repeat;
 }
+
+.downloadBox{
+    background-color: #000;
+    margin-left: 10vw;
+    margin-top: -13vh;
+}
+
+.download-container{
+    border-bottom: 8px solid #222;
+    padding-bottom: 3rem;
+}

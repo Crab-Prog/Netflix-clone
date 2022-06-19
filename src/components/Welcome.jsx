@@ -5,7 +5,7 @@ const Welcome = () => {
     return (
         <div className='welcome-container pb-8'>
             <div className='m-6 flex flex-col items-center text-center'>
-                <h1 className=' pb-2'>Films, séries TV et bien plus en illimité.</h1>
+                <h1>Films, séries TV et bien plus en illimité.</h1>
                 <h2 className='pb-4'>Où que vous soyez. Annulez à tout moment.</h2>
                 <div >
                     <label htmlFor="mail-address">

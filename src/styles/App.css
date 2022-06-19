@@ -6,9 +6,9 @@
   --color-border: #222;
   --color-highlight: #e20813;
   --font-family: 'Martel Sans', sans-serif;
-  --title-weight:700;
+  --title-weight:600;
   --paragraph-weight: 400;
-  --font-size-title: 1.75rem;
+  --font-size-title: 1.6rem;
   --font-size-paragraph: 1.1rem;
 }
 
@@ -40,9 +40,17 @@ header{
 }
 h2, h2{
   font-size: var(--font-size-paragraph);
+  line-height: 1.5rem;
 }
 h1{
   font-size: var(--font-size-title);
   font-weight: var(--title-weight);
   line-height: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+img{
+  max-width: 100%;
+    height: auto;
+    border: 0;
 }
