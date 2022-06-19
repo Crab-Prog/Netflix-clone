@@ -1,0 +1,9 @@
+.downloadAnimation{
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    display: block;
+    background: url("../assets/images/download-icon.gif") center center no-repeat;
+}
