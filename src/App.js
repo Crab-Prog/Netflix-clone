@@ -6,6 +6,7 @@ import DownloadCard from './components/DownloadCard';
 import DevicesCard from './components/DevicesCard';
 import YoungCard from './components/YoungCard';
 import FAQ from './components/FAQ';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,8 +25,10 @@ function App() {
         <DevicesCard />
         <YoungCard />
         <FAQ />
-        <div className='bg-black border-t-gray-300 pb-28'>hello</div>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

@@ -12,7 +12,7 @@
   --font-size-paragraph: 1.1rem;
 }
 
-*{
+header,main{
     box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@
   font-family: var(--font-family);
   color: var(--color-white);
 }
-select, main{
+select, main, footer{
   background-color: var(--color-black);
 }
 

@@ -8,7 +8,7 @@ const NavBar = () => {
                 <img src={logo} alt="" className='netflix-logo '/>
                 <div className='flex h-8 gap-3'>
                     <div className='nav-select'>
-                    <select id="language-selected" className=' nav-language px-6 py-0.5 border-white border rounded-sm'>
+                    <select id="language-selected" className=' px-6 py-0.5 border-white border rounded-sm'>
                         <option value="language">Français</option>
                         <option value="language">English</option>
                     </select>

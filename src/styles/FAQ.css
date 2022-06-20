@@ -12,6 +12,15 @@
     filter: invert(100%);
     transform: translateY(-50%) rotate(-45deg);
 }
+.faq-plus{
+    transform: translateY(-50%) rotate(-45deg);
+    -webkit-transform: translateY(-50%) rotate(-45deg);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
 .faq-question , .hide-answer{
     padding: 0.8em 2.2em 0.8em 1.2em;
     margin-bottom: 1px;
@@ -22,4 +31,8 @@
     display: block;
     text-align: left;
     background: #303030;
+}
+.faq-bottom{
+    border-bottom: 8px solid #222;
+    padding-bottom: 3rem;
 }
