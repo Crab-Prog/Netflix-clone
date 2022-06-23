@@ -1,4 +1,4 @@
-.downloadAnimation{
+.downloadAnimation {
     content: '';
     width: 1.5rem;
     height: 1.5rem;
@@ -8,13 +8,22 @@
     background: url("../assets/images/download-icon.gif") center center no-repeat;
 }
 
-.downloadBox{
+.downloadBox {
     background-color: #000;
     margin-left: 10vw;
     margin-top: -13vh;
+    max-width: 22rem;
 }
 
-.download-container{
-    border-bottom: 8px solid #222;
-    padding-bottom: 3rem;
+@media screen and (min-width: 950px) and (max-width: 1450px) {
+    .download-container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .downloadBox {
+        margin-top: 25vh;
+        margin-right: 60%;
+    }
 }

@@ -1,0 +1,13 @@
+.welcome-p{
+    font-size: 1.125rem;
+}
+@media screen and (min-width: 550px) {
+    .welcome-container{
+    padding: 3rem 2.8rem ;
+    height: 80vh;
+}
+.welcome-p{
+    font-size: 1.625rem;
+}
+
+}

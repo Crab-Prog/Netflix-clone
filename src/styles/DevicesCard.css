@@ -10,7 +10,18 @@
     width: 100vw;
 }
 
-.devices-animate {
-    border-bottom: 8px solid #222;
-    padding-bottom: 3rem;
-}
+@media screen and (min-width: 550px) and (max-width: 949px) {
+    .devices-video{
+        width: 50%;
+    }
+  }
+
+  @media screen and (min-width: 950px) and (max-width: 1450px) {
+    .devices-video{
+        width: 25%;
+        margin-top: -5%;
+    }
+    .devices{
+        display: flex;
+    }
+  }

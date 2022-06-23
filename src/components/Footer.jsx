@@ -5,13 +5,13 @@ import data from "../services/data.json";
 const Footer = () => {
   return (
     <div className='text-[#757575] px-6 py-10 flex flex-col items-start text-left'>
-      <h2 className='pb-4'>Des questions ? Appelez le (+33) 0805-543-063
+      <h2 className='pb-4 text-base'>Des questions ? Appelez le (+33) 0805-543-063
       </h2>
-      <ul className='footer-links pb-6'>
+      <ul className='footer-links pb-6 grid grid-cols-2 sm:grid-cols-3'>
 
         {
           data.map((e) => {
-            return <li><span>{e}</span></li>
+            return <li className='text-base'><span>{e}</span></li>
 
           })
         }

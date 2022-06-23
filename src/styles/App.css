@@ -38,9 +38,13 @@ header{
 .img-opacity{
   background: rgba(0,0,0,.4);
 }
-h2, h2{
+h3{
   font-size: var(--font-size-paragraph);
+}
+h2{
+  font-size: 1.6rem;
   line-height: 1.5rem;
+  font-weight: var(--title-weight);
 }
 h1{
   font-size: var(--font-size-title);
@@ -53,4 +57,35 @@ img{
   max-width: 100%;
     height: auto;
     border: 0;
+}
+hr{
+  background-color: #222;
+  height: 0.5rem;
+  border: 1px solid #222;
+}
+@media screen and (min-width: 550px) {
+  h1{
+    font-size: 3rem;
+    line-height: 3.3rem;
+  }
+  h2{
+    font-size: 2.5rem;
+    line-height: 3.3rem;
+  }
+  h3{
+    font-size: 1.25rem;
+  }
+}
+/* @media only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1449px), only screen and (min-width: 1450px)
+ {
+  .download-container,.young, .second, .devices,.faq-bottom, footer{
+    padding: 70px 45px;
+   } 
+} */
+
+@media only screen and (min-width: 1450px)
+ {
+  header, main{
+    padding: 0 15rem;
+   } 
 }
