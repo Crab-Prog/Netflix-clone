@@ -6,7 +6,7 @@ const DevicesCard = () => {
     return (
         <>
             <div className='devices '>
-                <div className='px-4 pt-10 flex flex-col items-center text-center md:px-8 md:text-left'>
+                <div className='px-4 pt-10 flex flex-col items-center text-center md:justify-center md:px-8 md:text-left'>
                     <h2>
                         Où que vous soyez.
                     </h2>

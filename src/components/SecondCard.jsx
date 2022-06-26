@@ -7,7 +7,7 @@ const SecondCard = () => {
   return (
     <>
       <div className='second py-10 md:px-8'>
-        <div className='px-6  flex flex-col items-center text-center'>
+        <div className='px-6  flex flex-col items-center text-center md:text-left'>
           <h2>
             Regardez Netflix sur votre TV.</h2>
           <h3>Regardez Netflix sur votre Smart TV, PlayStation, Xbox, Chromecast, Apple TV, lecteurs Blu-ray et bien plus.</h3>
