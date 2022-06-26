@@ -1,14 +1,17 @@
-.second-video{
-    position: absolute;    
-    width: 80%;
+.second-video {
+    position: absolute;
 }
 
-.second-image{
+.second-image {
     position: relative;
     z-index: 2;
-    width: 100vw;
+    max-width: 950px;
+    min-width: 370px;
 }
-.second-animate {
-    border-bottom: 8px solid #222;
-    padding-bottom: 3rem;
+
+@media screen and (min-width: 949px) {
+    .second {
+        display: flex;
+        align-items: center;
+    }
 }

@@ -1,0 +1,31 @@
+.devices-video {
+    position: absolute;
+    margin-top: -10%;
+    width: 60%;
+    min-width: 169px;
+    max-width: 411px;
+}
+
+.devices-image {
+    position: relative;
+    z-index: 2;
+    max-width: 950px;
+    min-width: 370px;
+}
+
+@media screen and (min-width: 950px) {
+    .devices-video {
+        margin-top: -7%;
+    }
+
+    .devices {
+        display: flex;
+    }
+}
+
+
+@media screen and (min-width: 1450px) {
+    .devices-video {
+        margin-top: -3%;
+    }
+}

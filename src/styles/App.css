@@ -6,14 +6,15 @@
   --color-border: #222;
   --color-highlight: #e20813;
   --font-family: 'Martel Sans', sans-serif;
-  --title-weight:700;
+  --title-weight: 600;
   --paragraph-weight: 400;
-  --font-size-title: 1.75rem;
+  --font-size-title: 1.6rem;
   --font-size-paragraph: 1.1rem;
 }
 
-*{
-    box-sizing: border-box;
+header,
+main {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font: inherit;
@@ -21,28 +22,82 @@
   font-family: var(--font-family);
   color: var(--color-white);
 }
-select, main{
+
+select,
+main,
+footer {
   background-color: var(--color-black);
 }
 
-header{
+header {
   width: 100%;
   height: auto;
   background-image: url("../assets/images/background.jpg");
   background-size: cover;
   border-bottom: 0.5rem solid #222;
 }
-.img-gradient{
-  background-image: linear-gradient(to top,rgba(0, 0, 0, 0.945) 0,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 75%,rgba(0, 0, 0, 0.955) 100%);
+
+.img-gradient {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.945) 0, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.955) 100%);
 }
-.img-opacity{
-  background: rgba(0,0,0,.4);
+
+.img-opacity {
+  background: rgba(0, 0, 0, .4);
 }
-h2, h2{
+
+h3 {
   font-size: var(--font-size-paragraph);
 }
-h1{
+
+h2 {
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+  font-weight: var(--title-weight);
+}
+
+h1 {
   font-size: var(--font-size-title);
   font-weight: var(--title-weight);
   line-height: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+hr {
+  background-color: #222;
+  width: 100vw;
+  border: 0.5rem solid #222;
+}
+
+@media screen and (min-width: 550px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 3.3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    line-height: 3.3rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+
+  .download-container,
+  .young,
+  .second,
+  .devices,
+  .faq-bottom,
+  footer {
+    padding: 0 15rem;
+  }
 }

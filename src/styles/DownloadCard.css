@@ -1,4 +1,4 @@
-.downloadAnimation{
+.downloadAnimation {
     content: '';
     width: 1.5rem;
     height: 1.5rem;
@@ -6,4 +6,17 @@
     outline-offset: -2px;
     display: block;
     background: url("../assets/images/download-icon.gif") center center no-repeat;
+}
+
+.downloadBox {
+    background-color: #000;
+    max-width: 22rem;
+}
+
+@media screen and (min-width: 950px) {
+    .download-container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
 }
