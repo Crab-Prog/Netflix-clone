@@ -1,10 +1,11 @@
-@media screen and (min-width: 950px){
-    .young-container{
+@media screen and (min-width: 950px) {
+    .young-container {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
     }
-    .young{
+
+    .young {
         text-align: left;
     }
 }

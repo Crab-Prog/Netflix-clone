@@ -6,7 +6,7 @@ const FAQ = () => {
 
     return (
         <>
-         <hr></hr>
+            <hr></hr>
             <div className='faq-bottom'>
                 <h1 className='m-6 flex flex-col items-center text-center'>Foire aux questions</h1>
                 <details>

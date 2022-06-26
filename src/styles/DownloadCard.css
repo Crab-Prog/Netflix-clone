@@ -10,20 +10,13 @@
 
 .downloadBox {
     background-color: #000;
-    margin-left: 10vw;
-    margin-top: -13vh;
     max-width: 22rem;
 }
 
-@media screen and (min-width: 950px) and (max-width: 1450px) {
+@media screen and (min-width: 950px) {
     .download-container {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-    }
-
-    .downloadBox {
-        margin-top: 25vh;
-        margin-right: 60%;
     }
 }

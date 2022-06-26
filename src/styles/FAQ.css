@@ -1,4 +1,4 @@
-.faq-cross{
+.faq-cross {
     position: absolute;
     right: 1em;
     top: 40%;
@@ -8,20 +8,22 @@
     transform: rotate(-45deg);
 }
 
-details[open]  .faq-cross{
+details[open] .faq-cross {
     transform: rotate(0deg);
-    transition: transform .3s ease,opacity .2s ease;
+    transition: transform .3s ease, opacity .2s ease;
 }
-details[open] p{
+
+details[open] p {
     background: #303030;
     padding: 1rem;
 }
-.faq-bottom{
-    border-bottom: 8px solid #222;
+
+.faq-bottom {
+    border-bottom: 0.5rem solid #222;
     padding-bottom: 3rem;
 }
 
-summary{
+summary {
     position: relative;
     list-style: none;
     display: block;
@@ -29,17 +31,18 @@ summary{
     background: #303030;
     padding: 1rem;
     border-top: 0.4rem solid #000;
+    cursor: pointer;
 }
 
 
 @media screen and (min-width: 950px) and (max-width: 1450px) {
-    .faq-bottom{
+    .faq-bottom {
         padding: 0 10rem;
     }
 }
 
-@media screen and (min-width: 1450px){
-    .faq-bottom{
+@media screen and (min-width: 1450px) {
+    .faq-bottom {
         padding: 0 15rem;
     }
 }

@@ -8,7 +8,7 @@ select{
 .nav-select{
     position: relative;
 }
-.nav-select::before{
+.nav-select::before {
     position: absolute;
     width: 15px;
     height: 15px;
@@ -18,7 +18,8 @@ select{
     left: 0.5rem;
     filter: invert(100%);
 }
-.nav-select::after{
+
+.nav-select::after {
     position: absolute;
     width: 10px;
     height: 10px;

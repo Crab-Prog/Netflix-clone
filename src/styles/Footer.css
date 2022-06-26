@@ -1,11 +1,9 @@
-.footer-links{
-    /* display: grid; 
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr;  */
-  gap: 1rem 1.2rem;
-  font-size: 0.8rem;
+.footer-links {
+    gap: 1rem 1.2rem;
+    font-size: 0.8rem;
 }
-.nav-select2::before{
+
+.nav-select2::before {
     position: absolute;
     width: 15px;
     height: 15px;
@@ -15,7 +13,8 @@
     left: 0.5rem;
     filter: invert(100%);
 }
-.nav-select2::after{
+
+.nav-select2::after {
     position: absolute;
     width: 10px;
     height: 10px;
